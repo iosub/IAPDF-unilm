@@ -35,7 +35,7 @@ from timm.data.constants import \
     IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD, IMAGENET_INCEPTION_MEAN, IMAGENET_INCEPTION_STD
 from torchvision import transforms
 import torch
-
+os.environ["USE_LIBUV"] = "0"
 @dataclass
 class ModelArguments:
     """

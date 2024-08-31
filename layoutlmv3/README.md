@@ -18,6 +18,10 @@ python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wh
 pip install -e .
 ```
 
+
+
+
+
 ## Pre-trained Models
 | Model            | Model Name (Path)                                                               | 
 |------------------|---------------------------------------------------------------------------------|
